@@ -16,6 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/test-jobs', 'EmailController@index');
+Route::get('/send', 'EmailController@send');
+
 
 Auth::routes();
 
